@@ -5,7 +5,7 @@ gulp = require 'gulp'
   @param {Object=} compilerFlags
   @return {Stream} Node.js Stream.
 ###
-module.exports = (object, compilerFlags = {}) ->
+module.exports = (object, compilerFlags = {}, compilerPath = 'bower_components/closure-compiler/compiler.jar') ->
   closureCompiler = require 'gulp-closure-compiler'
   concat = require 'gulp-concat'
   cond = require 'gulp-cond'
@@ -24,7 +24,7 @@ module.exports = (object, compilerFlags = {}) ->
     gulp.src src
       .pipe concat path.basename buildPath
       .pipe cond @production, closureCompiler
-        compilerPath: 'bower_components/closure-compiler/compiler.jar'
+        compilerPath: compilerPath
         fileName: path.basename buildPath
         compilerFlags: compilerFlags
       .on 'error', (err) -> gutil.log gutil.colors.red err.message
