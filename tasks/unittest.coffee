@@ -71,6 +71,14 @@ module.exports = (baseJsDir, paths) ->
           break
     true
 
+  isWatching = @isWatching()
+
   gulp.src changedFilePath ? paths
     .pipe filter autoRequire
-    .pipe mocha reporter: 'dot',  ui: 'tdd'
+    .pipe mocha(reporter: 'dot',  ui: 'tdd').on 'error', (err) ->
+      console.log err.toString()
+      if isWatching
+        @emit 'end'
+      else
+        process.exit 1
+      return

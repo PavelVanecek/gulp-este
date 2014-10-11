@@ -30,3 +30,6 @@ module.exports = class GulpEste
   stylus: require './tasks/stylus'
   unitTest: require './tasks/unittest'
   watch: require './tasks/watch'
+
+  isWatching: ->
+    !!@changedFilePath
