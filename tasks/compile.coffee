@@ -14,6 +14,7 @@ module.exports = (paths, dest, customOptions) ->
 
   paths = [paths] if not Array.isArray paths
   options =
+    # Default compiler flags.
     fileName: 'app.js'
     compilerFlags:
       closure_entry_point: 'app.main'
@@ -25,6 +26,7 @@ module.exports = (paths, dest, customOptions) ->
       only_closure_dependencies: true
       output_wrapper: '(function(){%output%})();'
       warning_level: 'VERBOSE'
+      language_in: 'ECMASCRIPT5'
 
   if @production == 'debug'
     # Debug and formatting makes compiled code readable.
