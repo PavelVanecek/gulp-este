@@ -35,8 +35,6 @@
     "gulpfriendly",
     "isomorphic",
     "minify",
-    "objectobserve",
-    "pointerevents",
     "react",
     "stylus",
     "unittests"
@@ -62,7 +60,6 @@
     "gulp-plumber": "^0.6.1",
     "gulp-react": "^1.0.2",
     "gulp-rename": "^1.2.0",
-    "gulp-rimraf": "^0.1.0",
     "gulp-size": "^1.1.0",
     "gulp-stylus": "^1.3.3",
     "gulp-util": "^3.0.0",

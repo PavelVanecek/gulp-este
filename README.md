@@ -21,7 +21,6 @@ Take a look at Este.js [gulpfile.coffee](https://github.com/steida/este/blob/mas
 - compile (Closure Compiler)
 - concatAll (concat all files for production)
 - concatDeps (helper)
-- deleteOrphans (delete foo.js without foo.coffee, etc.)
 - diContainer (generate awesome DI containers)
 - getNodeJsExterns
 - jsx (React JSX)
