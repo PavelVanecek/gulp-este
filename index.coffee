@@ -14,7 +14,6 @@ module.exports = class GulpEste
   compile: require './tasks/compile'
   concatAll: require './tasks/concatall'
   concatDeps: require './tasks/concatdeps'
-  deleteOrphans: require './tasks/deleteorphans'
   deps: require './tasks/deps'
   diContainer: require './tasks/dicontainer'
   getExterns: require './tasks/getexterns'
