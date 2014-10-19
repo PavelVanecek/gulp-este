@@ -9,6 +9,6 @@ module.exports = ->
   , 1
 
   @liveReload = require 'gulp-livereload'
-  @liveReload.listen()
+  @liveReload.listen.apply @liveReload, arguments
 
   deferred.promise
