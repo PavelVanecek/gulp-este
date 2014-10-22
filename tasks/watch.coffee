@@ -14,7 +14,7 @@ module.exports = (dirs, mapExtensionToTask, gulpStartCallback, options = {}) ->
     filePath = path.resolve e.filepath
 
     for dir in options.ignoredDirs
-      return if filePath.indexOf(dir + '/') > -1
+      return if filePath.indexOf(dir + path.sep) > -1
 
     @changedFilePath = filePath
     task = mapExtensionToTask[e.extension]
