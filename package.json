@@ -47,7 +47,7 @@
     "gulp-bg": "0.0.5",
     "gulp-bump": "^0.1.7",
     "gulp-closure-compiler": "^0.2.1",
-    "gulp-closure-deps": "^0.3.1",
+    "gulp-closure-deps": "^0.4.0",
     "gulp-closure-dicontainer": "^0.1.1",
     "gulp-coffee": "^2.0.0",
     "gulp-coffee2closure": "^0.1.0",
