@@ -1,79 +1,79 @@
 {
-	"name": "gulp-este",
-	"version": "1.2.1",
-	"description": "Gulp tasks for Este.js",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/steida/gulp-este.git"
-	},
-	"author": {
-		"name": "Daniel Steigerwald",
-		"url": "https://github.com/steida"
-	},
-	"engines": {
-		"node": ">=0.10.0"
-	},
-	"scripts": {
-		"test": "gulp test"
-	},
-	"files": [
-		"tasks/**/*.js",
-		"index.js"
-	],
-	"keywords": [
-		"closure",
-		"coffeescript",
-		"compiler",
-		"compress",
-		"deps",
-		"devstack",
-		"dicontainer",
-		"es6",
-		"este",
-		"google",
-		"gulpfriendly",
-		"isomorphic",
-		"minify",
-		"react",
-		"stylus",
-		"unittests"
-	],
-	"dependencies": {
-		"chai": "^1.9.1",
-		"este-watch": "^0.1.0",
-		"event-stream": "^3.1.2",
-		"gulp": "^3.6.1",
-		"gulp-bg": "0.0.5",
-		"gulp-bump": "^0.1.7",
-		"gulp-closure-compiler": "^0.2.1",
-		"gulp-closure-deps": "^0.4.0",
-		"gulp-closure-dicontainer": "^0.1.1",
-		"gulp-coffee": "^2.0.0",
-		"gulp-coffee2closure": "^0.1.0",
-		"gulp-concat": "^2.2.0",
-		"gulp-cond": "0.0.2",
-		"gulp-filter": "^2.0.0",
-		"gulp-livereload": "^3.0.2",
-		"gulp-minify-css": "^0.3.1",
-		"gulp-mocha": "^2.0.0",
-		"gulp-plumber": "^0.6.1",
-		"gulp-react": "^2.0.0",
-		"gulp-rename": "^1.2.0",
-		"gulp-size": "^1.1.0",
-		"gulp-stylus": "^1.3.3",
-		"gulp-util": "^3.0.0",
-		"jsdom": "^2.0.0",
-		"lodash": "^2.4.1",
-		"nodejs-externs": "^0.10.0",
-		"open": "0.0.5",
-		"q": "^1.0.1",
-		"react": "^0.12.1",
-		"require-uncache": "0.0.2",
-		"sinon": "^1.9.1"
-	},
-	"devDependencies": {
-		"coffee-script": "^1.7.1",
-		"yargs": "^1.2.1"
-	}
+  "name": "gulp-este",
+  "version": "1.2.2",
+  "description": "Gulp tasks for Este.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steida/gulp-este.git"
+  },
+  "author": {
+    "name": "Daniel Steigerwald",
+    "url": "https://github.com/steida"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "files": [
+    "tasks/**/*.js",
+    "index.js"
+  ],
+  "keywords": [
+    "closure",
+    "coffeescript",
+    "compiler",
+    "compress",
+    "deps",
+    "devstack",
+    "dicontainer",
+    "es6",
+    "este",
+    "google",
+    "gulpfriendly",
+    "isomorphic",
+    "minify",
+    "react",
+    "stylus",
+    "unittests"
+  ],
+  "dependencies": {
+    "chai": "^1.9.1",
+    "este-watch": "^0.1.0",
+    "event-stream": "^3.1.2",
+    "gulp": "^3.6.1",
+    "gulp-bg": "0.0.5",
+    "gulp-bump": "^0.1.7",
+    "gulp-closure-compiler": "^0.2.1",
+    "gulp-closure-deps": "^0.4.0",
+    "gulp-closure-dicontainer": "^0.1.1",
+    "gulp-coffee": "^2.0.0",
+    "gulp-coffee2closure": "^0.1.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-cond": "0.0.2",
+    "gulp-filter": "^2.0.0",
+    "gulp-livereload": "^3.0.2",
+    "gulp-minify-css": "^0.3.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^0.6.1",
+    "gulp-react": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.1.0",
+    "gulp-stylus": "^1.3.3",
+    "gulp-util": "^3.0.0",
+    "jsdom": "^2.0.0",
+    "lodash": "^2.4.1",
+    "nodejs-externs": "^0.10.0",
+    "open": "0.0.5",
+    "q": "^1.0.1",
+    "react": "^0.12.1",
+    "require-uncache": "0.0.2",
+    "sinon": "^1.9.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "yargs": "^1.2.1"
+  }
 }
