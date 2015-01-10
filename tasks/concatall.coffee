@@ -22,7 +22,6 @@ module.exports = (object, compilerFlags = {}, compilerPath = 'bower_components/c
     else
       src.development
     gulp.src src
-      .pipe concat path.basename buildPath
       .pipe cond @production, closureCompiler
         compilerPath: compilerPath
         fileName: path.basename buildPath
