@@ -73,7 +73,7 @@
     "sinon": "^1.9.1"
   },
   "devDependencies": {
-    "coffee-script": "^1.7.1",
+    "coffee-script": "~1.8.0",
     "yargs": "^1.2.1"
   }
 }
