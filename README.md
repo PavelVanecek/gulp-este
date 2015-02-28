@@ -1,6 +1,10 @@
 # [gulp](http://gulpjs.com)-este
 [![Build Status](https://secure.travis-ci.org/steida/gulp-este.png?branch=master)](http://travis-ci.org/steida/gulp-este) [![Dependency Status](https://david-dm.org/steida/gulp-este.png)](https://david-dm.org/steida/gulp-este) [![devDependency Status](https://david-dm.org/steida/gulp-este/dev-status.png)](https://david-dm.org/steida/gulp-este#info=devDependencies)
 
+## Update
+
+_New Este switched to new set of tools therefore this repo is deprecated._
+
 > Gulp tasks for [Este.js](https://github.com/steida/este)
 
 ## Install
