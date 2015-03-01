@@ -18,9 +18,6 @@ module.exports = (paths, dest, customOptions) ->
     fileName: 'app.js'
     compilerFlags:
       compilation_level: 'ADVANCED_OPTIMIZATIONS'
-      define: [
-        "goog.DEBUG=#{@production == 'debug'}"
-      ]
       extra_annotation_name: 'jsx'
       only_closure_dependencies: true
       output_wrapper: '(function(){%output%})();'
