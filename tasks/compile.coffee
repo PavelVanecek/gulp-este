@@ -17,7 +17,6 @@ module.exports = (paths, dest, customOptions) ->
     # Default compiler flags.
     fileName: 'app.js'
     compilerFlags:
-      closure_entry_point: 'app.main'
       compilation_level: 'ADVANCED_OPTIMIZATIONS'
       define: [
         "goog.DEBUG=#{@production == 'debug'}"
