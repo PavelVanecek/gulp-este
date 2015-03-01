@@ -15,11 +15,14 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "preinstall": "coffee -c tasks/ index.coffee",
+    "clean": "rm tasks/*.js index.js",
     "test": "gulp test"
   },
   "files": [
-    "tasks/**/*.js",
-    "index.js"
+    "tasks/**/*.coffee",
+    "index.coffee",
+    "gulpfile.coffee"
   ],
   "keywords": [
     "closure",
